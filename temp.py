@@ -356,15 +356,6 @@ print(f"\n{name} has the largest population, of {info['population']} people.")
 
 China has the largest population, of 1400000000 people.
 
-
-
-query_continent = input("\nEnter a continent to count countries from: ")
-count = sum(1 for info in countries.values() if info['continent'].lower() == query_continent.lower())
-print(f"There are {count} countries from {query_continent}.")
-
-Enter a continent to count countries from: 
-There are 0 countries from .
-
 query_continent = input("\nEnter a continent to count countries from: ")
 count = sum(1 for info in countries.values() if info['continent'].lower() == query_continent.lower())
 print(f"There are {count} countries from {query_continent}.")
